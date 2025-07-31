@@ -51,7 +51,7 @@ export default function SectionModules() {
           Les <span className="text-[#14482F]">modules essentiels</span> SimplyFoot
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {MODULES.map((m, i) => (
+          {MODULES.map((m) => (
             <div
               key={m.title}
               className="bg-white/60 rounded-2xl p-8 flex flex-col items-center text-center shadow-lg hover:shadow-2xl border border-[#175438]/15 group transition-all"

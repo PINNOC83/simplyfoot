@@ -51,7 +51,7 @@ export default function SectionFeatures() {
           Les <span className="text-simply-green">modules essentiels</span> SimplyFoot
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {FEATURES.map((f, i) => (
+          {FEATURES.map((f) => (
             <div
               key={f.title}
               className="bg-white/5 backdrop-blur-xl rounded-2xl p-7 flex flex-col items-center text-center shadow-lg hover:shadow-2xl border border-simply-green/10 group transition-all"
